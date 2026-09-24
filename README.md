@@ -37,12 +37,4 @@ Recreating an existing website design from scratch
 
 This project is part of my journey to improve my frontend development skills and strengthen my understanding of CSS layout techniques.
 
-🔗 Live Demo
 
-Add your deployed project link here.
-
-👨‍💻 Author
-
-Prakash Kumar
-
-Learning and buil
