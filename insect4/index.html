@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pachyteria equestris — Insect Collection</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+  <main class="page">
+
+    <header>
+      <div class="header-left">
+        <div class="logo">INSECT</div>
+
+        <label class="search">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <circle cx="11" cy="11" r="7"></circle>
+            <path d="M20 20l-4-4"></path>
+          </svg>
+          <input type="search" placeholder="Search...">
+        </label>
+      </div>
+
+      <nav class="header-right">
+        <a class="nav-link" href="#">Home</a>
+        <a class="nav-link" href="#">Shop</a>
+        <a class="nav-link" href="#">About</a>
+        <a class="nav-link" href="#">Gallery</a>
+        <a class="nav-link" href="#">Contact</a>
+      </nav>
+    </header>
+
+    <section class="left">
+      <div class="classification">
+        <h1 class="vertical-title">Classification</h1>
+
+        <div class="facts">
+          <div class="fact">
+            <strong>Class:</strong>
+            <span>Insecta</span>
+          </div>
+          <div class="fact">
+            <strong>Order:</strong>
+            <span>Coleoptera</span>
+          </div>
+          <div class="fact">
+            <strong>Family:</strong>
+            <span>Cerambycidae</span>
+          </div>
+          <div class="fact">
+            <strong>Sub-Family:</strong>
+            <span>Cerambycinae</span>
+          </div>
+          <div class="fact">
+            <strong>Tribe:</strong>
+            <span>Callidiomatiini</span>
+          </div>
+          <div class="fact">
+            <strong>Genus:</strong>
+            <span>Pachyteria</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Center specimen overlaps both halves using position:absolute -->
+    <div class="specimen-wrap">
+      <img src="assets/insect.png" alt="Pachyteria equestris specimen in a glass display">
+    </div>
+
+    <section class="right">
+      <div class="details">
+        <h2 class="species">Pachyteria<br>equestris</h2>
+
+        <div class="info-row">
+          <svg class="bug-icon" viewBox="0 0 80 80" fill="none" stroke="white" stroke-width="2">
+            <ellipse cx="40" cy="42" rx="10" ry="20"></ellipse>
+            <path d="M40 21V12M34 23l-8-8M46 23l8-8M30 34l-13-7M50 34l13-7M30 43l-14 0M50 43l14 0M31 53L19 61M49 53l12 8M36 59l-4 13M44 59l4 13"></path>
+            <circle cx="40" cy="13" r="4"></circle>
+          </svg>
+
+          <div class="divider"></div>
+
+          <div class="info-list">
+            <div class="info">
+              <svg class="info-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M12 21s7-6.2 7-12a7 7 0 1 0-14 0c0 5.8 7 12 7 12z"></path>
+                <circle cx="12" cy="9" r="2.5"></circle>
+              </svg>
+              <div><b>Locality:</b>Malaysia</div>
+            </div>
+
+            <div class="info">
+              <svg class="info-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <circle cx="9" cy="15" r="5"></circle>
+                <path d="M14 15h7M18 12v6M9 10V3M6 6h6"></path>
+              </svg>
+              <div><b>Sex:</b>Male</div>
+            </div>
+
+            <div class="info">
+              <svg class="info-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M4 17L17 4l3 3L7 20H4z"></path>
+                <path d="M8 16l-2-2M11 13l-2-2M14 10l-2-2M17 7l-2-2"></path>
+              </svg>
+              <div><b>Size:</b>32 mm / 12 mm</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="size-line">32 mm</div>
+
+        <div class="price">$5.99</div>
+
+        <div class="switches">
+          <div class="switch-line">
+            <button class="switch" aria-label="View detailed antennae"></button>
+            <span>View detailed antennae</span>
+          </div>
+
+          <div class="switch-line">
+            <button class="switch" aria-label="View underside"></button>
+            <span>View underside</span>
+          </div>
+        </div>
+
+        <button class="add-btn" id="addBtn">Add to collection</button>
+      </div>
+    </section>
+
+  </main>
+
+  <div class="toast" id="toast">Added to your collection ✓</div>
+
+ 
+</body>
+</html>
